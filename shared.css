@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    box-sizing: inherit;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    box-sizing: inherit;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    max-height: 10.75rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+
+}
+.logo-and-get-price-button {}
+
+.gliner-logo {
+    margin: 0.5rem 1rem;
+    padding: 0;
+    width: 50%;
+}
+
+nav {
+    background: orange;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    /*margin-right: auto;*/
+    /*margin-left: 1rem;*/
+    width: 100%;
+    height: auto;
+    /*position: fixed;*/
+    /*margin-top: 10rem;*/
+    position: sticky;
+    top:0;
+    opacity: 0.90;
+    z-index: 999;
+
+}
+
+@media (min-width: 55rem) {
+    nav {
+        /*margin: 0 auto;*/
+        height: auto;
+    }
+}
+
+nav ul {
+    width: 70vw;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.4vw;
+    padding: 0;
+    /*margin-right: 2rem;*/
+}
+
+/*@media () {*/
+
+/*}*/
+
+nav ul li {
+    display: flex;
+    margin: 0 1rem;
+    padding-bottom: 0.1rem;
+}
+
+@media (min-width: 56.5rem) {
+    nav ul li {
+        /*margin: 0 2rem;*/
+    }
+}
+
+.nav-item__get-free-estimate {
+    white-space: nowrap;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+    border-bottom: 0.1rem solid orange;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    border-bottom: 0.1rem solid white;
+
+    color: white;
+}
