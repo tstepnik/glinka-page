@@ -15,6 +15,11 @@ body {
     padding: 0;
 }
 
+main {
+    width: 100%;
+    height: 100%;
+}
+
 
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
@@ -31,7 +36,7 @@ header {
     padding: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
 }
@@ -106,7 +111,7 @@ font-size: 1.7rem;
     color: white;
 }
 
-nav {
+.nav {
     background: orange;
     display: flex;
     justify-content: flex-end;
@@ -133,7 +138,7 @@ nav {
 }
 
 nav ul {
-    width: 70vw;
+    width: 65vw;
     list-style: none;
     display: flex;
     align-items: center;
@@ -149,7 +154,7 @@ nav ul {
 
 nav ul li {
     display: flex;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     padding-bottom: 0.1rem;
 }
 
@@ -181,15 +186,78 @@ nav ul li a:active {
 
 }
 .nav-item__get-free-estimate a{
-    font-size: 1rem;
+
     border-color: #107aff;
+    color: black;
 }
 
 .nav-item__get-free-estimate a:hover,
 .nav-item__get-free-estimate a:active{
     border-color: white;
     background: orange;
-    color: black;
+    color: white;
 }
 
 
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+footer {
+    margin-top: 140rem;
+    width: 100%;
+    background: black;
+    position: static;
+    display: block;
+    height: 3rem;
+    padding: 0.3rem 0;
+}
+
+@media (min-height: 20rem){
+    footer {
+        margin-top: 175rem;
+    }
+}
+
+@media (min-height: 25rem){
+    footer {
+        margin-top: 170rem;
+    }
+}
+
+@media (min-height: 30rem){
+    footer {
+        margin-top: 165rem;
+    }
+}
+
+@media (min-height: 35rem){
+    footer {
+        margin-top: 160rem;
+    }
+}
+
+@media (min-height: 40rem){
+    footer {
+        margin-top: 155rem;
+    }
+}
+
+@media (min-height: 46rem){
+    footer {
+        margin-top: 150rem;
+    }
+}
+
+
+.copy {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
