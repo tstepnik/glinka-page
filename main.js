@@ -21,7 +21,6 @@ next.addEventListener("click", function () {
 function circleIndicator() {
     for (let i = 0; i < slides.length; i++) {
         const div = document.createElement("div");
-        div.innerHTML = i + 1 +"x";
         div.setAttribute("onclick", "indicateSlide(this)");
         div.id = i;
         if (i == 0) {
@@ -67,10 +66,16 @@ function nextSlide() {
 }
 
 function changeSlide() {
+
     for (let i = 0; i < slides.length; i++) {
-        slides[i].classList.remove("display");
+ setTimeout(slides[i].classList.remove('display'),50);
+        setTimeout(slides[i].style.display='none',110);
     }
-    slides[index].classList.add("display")
+
+    setTimeout(slides[index].style.display='none',130);
+    setTimeout(slides[index].style.display='flex',1110);
+    setTimeout(slides[index].classList.add("display"), 530);
+
 }
 
 function resetTimer() {
