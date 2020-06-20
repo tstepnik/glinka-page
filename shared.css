@@ -15,6 +15,12 @@ body {
     padding: 0;
 }
 
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
 header {
     box-sizing: inherit;
     /*position: fixed;*/
@@ -25,14 +31,79 @@ header {
     padding: 0;
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
-.logo-and-get-price-button {}
+.logo {
+
+}
 
 .gliner-logo {
     margin: 0.5rem 1rem;
     padding: 0;
     width: 50%;
+}
+
+.get-price-box{
+ background: url("images/get-price-botx-image.jpg");
+    width: 60%;
+    height: 7rem;
+    margin: 0;
+    padding: 0;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.price-box {
+    margin: 0;
+    width: 98%;
+    height: 85%;
+    border: solid 0.2rem orange;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid orange;
+    width: 25%;
+    height: 35%;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+.price-box-text {
+    margin-left: 3rem;
+    color: orange;
+}
+
+.price-box-text h1{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.price-box-text h2{
+    margin-left: 7rem;
+font-size: 1.7rem;
+}
+
+.price-button a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.price-button a:hover,
+.price-button a:active{
+    color: white;
 }
 
 nav {
@@ -88,22 +159,37 @@ nav ul li {
     }
 }
 
-.nav-item__get-free-estimate {
-    white-space: nowrap;
-}
-
 nav ul li a {
 
     text-decoration: none;
     color: black;
     font-size: 100%;
     font-weight: bold;
-    border-bottom: 0.1rem solid orange;
+    border-bottom: 0.2rem solid orange;
 }
 
 nav ul li a:hover,
 nav ul li a:active {
-    border-bottom: 0.1rem solid white;
+    border-bottom: 0.2rem solid white;
 
     color: white;
 }
+
+.nav-item__get-free-estimate {
+    white-space: nowrap;
+
+
+}
+.nav-item__get-free-estimate a{
+    font-size: 1rem;
+    border-color: #107aff;
+}
+
+.nav-item__get-free-estimate a:hover,
+.nav-item__get-free-estimate a:active{
+    border-color: white;
+    background: orange;
+    color: black;
+}
+
+
