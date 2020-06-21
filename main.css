@@ -38,22 +38,29 @@
 }
 
 .background-image-section__text{
+    display: flex;
     flex-direction: column;
+    align-items: center;
     background: #1e262d;
     width: 35%;
     height: 100%;
     color: white;
+
 }
 
 .background-image-section__text h1 {
     text-align: center;
     font-size: 2.5rem;
-    margin-top: 5rem;
-    margin-bottom: 0.2rem;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+
+.background-image-section__text h2 {
+    margin: 1rem 0;
 }
 
 .background-image-section__text p {
-    maegin: 0;
+    maegin: 2rem 0;
     padding: 0;
     text-align: center;
     font-size: 1.5rem;
@@ -282,6 +289,7 @@ width: 100%;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     width: 100%;
+    margin-top: 10rem;
     padding-bottom: 5rem;
     margin-bottom: 5rem;
 }
