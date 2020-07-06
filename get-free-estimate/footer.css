@@ -1,0 +1,46 @@
+
+footer {
+    margin-top: 140rem;
+    width: 100%;
+    background: black;
+    position: static;
+    display: block;
+    height: 3rem;
+    padding: 0.3rem 0;
+}
+
+@media (min-height: 20rem){
+    footer {
+        margin-top: 70rem;
+    }
+}
+
+@media (min-height: 25rem){
+    footer {
+        margin-top: 65rem;
+    }
+}
+
+@media (min-height: 30rem){
+    footer {
+        margin-top: 60rem;
+    }
+}
+
+@media (min-height: 35rem){
+    footer {
+        margin-top: 55rem;
+    }
+}
+
+@media (min-height: 40rem){
+    footer {
+        margin-top: 50rem;
+    }
+}
+
+@media (min-height: 46rem){
+    footer {
+        margin-top: 45rem;
+    }
+}

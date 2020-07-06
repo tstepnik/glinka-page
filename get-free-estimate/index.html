@@ -2,9 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Main</title>
+
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
+<header>
+    <div class="logo">
+        <img src="../images/shared/logo.png"
+             alt="Gliner construction logo" class="gliner-logo">
+    </div>
+    <div class="get-price-box">
+        <div class="price-box">
+            <div class="price-box-text">
+                <h1>Interested in</h1>
+                <h2>our products?</h2>
+            </div>
+            <div class="price-button">
+                <a href="index.html">GET PRICE NOW</a>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="nav">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li class="nav-item__get-free-estimate"><a href="index.html">FREE ESTIMATE</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Promotions</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+</nav>
+<main>
+    <div class="information"></div>
+    <div class="form">
+        <div class="title">
+            <h1 class="form-title-h1">Get free estimate!</h1>
+            <h2 class="form-title-h2">We usually response with 24 hour.</h2>
+        </div>
+        <div id="form-background">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="city">City</label>
+                <input type="text" id="city">
+                <label for="message">Additional information</label>
+                <textarea type="text" id="message"></textarea>
+                <button type="submit" class="form-button">Send</button>
+            </form>
+        </div>
+    </div>
 
+</main>
+<footer>
+    <p class="copy"> All Rights Reserved &copy; GLINER </p>
+</footer>
+<script src="../shared.js"></script>
+<script src="../main.js"></script>
 </body>
 </html>
