@@ -11,36 +11,36 @@ footer {
 
 @media (min-height: 20rem){
     footer {
-        margin-top: 70rem;
+        margin-top: 55rem;
     }
 }
 
 @media (min-height: 25rem){
     footer {
-        margin-top: 65rem;
+        margin-top: 50rem;
     }
 }
 
 @media (min-height: 30rem){
     footer {
-        margin-top: 60rem;
+        margin-top: 45rem;
     }
 }
 
 @media (min-height: 35rem){
     footer {
-        margin-top: 55rem;
+        margin-top: 40rem;
     }
 }
 
 @media (min-height: 40rem){
     footer {
-        margin-top: 50rem;
+        margin-top: 35rem;
     }
 }
 
 @media (min-height: 46rem){
     footer {
-        margin-top: 45rem;
+        margin-top: 30rem;
     }
 }

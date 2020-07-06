@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
     --border-radius: 0.25rem;
@@ -9,15 +10,51 @@
 
 main{
     display: flex;
+    width: 100%;
 }
 
 .information{
     width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.form{
-    color: rgba(139, 139, 139, 0.93);
+.information-image {
+    width: 90%;
+    height: auto;
+
+}
+
+.information-title_description {
+    margin-top: 6rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Poppins', sans-serif;
+    color: #004765;
+}
+
+.information-title{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+
+.information-paragraph{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+/*//////FORMULARZ///////*/
+.form{
+    font-family: 'Poppins', sans-serif;
+    color: #03a9f4;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
@@ -76,9 +113,9 @@ form label{
 }
 
 .form-button{
-    font-size: 2.2rem;
+    font-size: 2rem;
     letter-spacing: 0.3rem;
-    font-weight: 600;
+    font-weight: 500;
     margin: 2rem 0;
     border: 1px solid orange;
     border-radius: 0.25rem;
@@ -88,3 +125,4 @@ form label{
     color: inherit;
     cursor: pointer;
 }
+
