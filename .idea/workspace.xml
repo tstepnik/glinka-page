@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9552bd4-dae2-40c6-9f0e-3f4a452e9588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/get-free-estimate/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/services/thinking-clients.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get-free-estimate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/get-free-estimate/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -63,14 +67,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../planner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tomas\IdeaProjects\glinka-page\get-free-estimate" />
-      <recent name="C:\Users\tomas\IdeaProjects\glinka-website\images" />
+      <recent name="C:\Users\tomas\IdeaProjects\glinka-page\images\services" />
+      <recent name="C:\Users\tomas\IdeaProjects\glinka-page\images\free-estimate" />
+      <recent name="C:\Users\tomas\IdeaProjects\glinka-page\images\shared" />
+      <recent name="C:\Users\tomas\IdeaProjects\glinka-page\images\main" />
+      <recent name="C:\Users\tomas\IdeaProjects\glinka-page\images\our-projects" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -88,6 +95,9 @@
       <workItem from="1593548614152" duration="5892000" />
       <workItem from="1593681218404" duration="622000" />
       <workItem from="1593764287061" duration="2150000" />
+      <workItem from="1594027155123" duration="14220000" />
+      <workItem from="1594072415754" duration="596000" />
+      <workItem from="1594155784828" duration="4841000" />
     </task>
     <servers />
   </component>
@@ -114,26 +124,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="654" y="275" key="#Notifications/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1593803954653" />
-    <state x="567" y="212" key="FileChooserDialogImpl" timestamp="1593680420711">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594028329796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1594028329796" />
+    <state x="567" y="212" key="FileChooserDialogImpl" timestamp="1594065898376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2540" y="282" key="FileChooserDialogImpl/0.0.1536.824/1920.22.1680.1010@1920.22.1680.1010" timestamp="1592569782032" />
     <state x="567" y="212" key="FileChooserDialogImpl/0.0.1536.824/239.-1050.1680.1010@0.0.1536.824" timestamp="1592677491819" />
-    <state x="567" y="212" key="FileChooserDialogImpl/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1593680420711" />
+    <state x="567" y="212" key="FileChooserDialogImpl/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1594065898376" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1593681177299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/0.-1050.1680.1010@0.0.1536.824" timestamp="1593551109702" />
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1593681177299" />
-    <state x="203" y="66" key="new project wizard" timestamp="1593804940092">
+    <state x="203" y="66" key="new project wizard" timestamp="1594156778173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="203" y="66" key="new project wizard/0.0.1536.824/0.-1050.1680.1010@0.0.1536.824" timestamp="1593551272034" />
+    <state x="203" y="66" key="new project wizard/0.0.1536.824/0.-1050.1680.1010@0.0.1536.824" timestamp="1594156778173" />
     <state x="2142" y="263" key="new project wizard/0.0.1536.824/1920.34.1680.1010@1920.34.1680.1010" timestamp="1592582012414" />
-    <state x="203" y="66" key="new project wizard/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1593804940092" />
-    <state x="2416" y="244" key="run.anything.popup" timestamp="1592553633036">
-      <screen x="1920" y="22" width="1680" height="1010" />
+    <state x="203" y="66" key="new project wizard/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1594030746662" />
+    <state x="453" y="181" key="run.anything.popup" timestamp="1594050084767">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2416" y="244" key="run.anything.popup/0.0.1536.824/1920.22.1680.1010@1920.22.1680.1010" timestamp="1592553633036" />
+    <state x="453" y="181" key="run.anything.popup/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1594050084767" />
   </component>
 </project>
