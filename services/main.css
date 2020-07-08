@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --footer-margin-top: 200rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: 90%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.introduction-desc {
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    padding-right: 4rem;
+}
+
+.introduction-desc h1 {
+    font-size: 3rem;
+}
+
+.introduction-desc p {
+    font-size: 1.7rem;
+}
+
+.photo {
+    width: 50%;
+}
+
+.photo img {
+    text-align: center;
+    vertical-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.window-styles,
+.door-styles{
+    margin-top: 15rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.window-styles{
+    margin-top: 5rem;
+}
+
+.window-styles ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+    grid-template-rows: minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+    grid-gap: 1rem;
+
+}
+
+   @media (max-width: 75rem) {
+    .window-styles ul {
+        grid-template-columns:  minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+        grid-template-rows:
+                minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr)
+    minmax(15rem, 1fr);
+    }
+}
+
+    @media (max-width: 60rem) {
+        .window-styles ul {
+            grid-template-columns:  minmax(15rem, 1fr) minmax(15rem, 1fr);
+            grid-template-rows:
+                minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr)
+    minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+        }
+    }
+
+    @media (max-width: 40rem) {
+        .window-styles ul {
+            grid-template-columns:  minmax(15rem, 1fr);
+            grid-template-rows:
+                minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr)
+    minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr)
+    minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+        }
+    }
+
+    /*//////////*/
+
+.door-styles ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+    grid-template-rows: minmax(15rem, 1fr);
+    grid-gap: 1rem;
+}
+
+@media (max-width: 50rem) {
+    .door-styles ul {
+        grid-template-columns:  minmax(15rem, 1fr);
+        grid-template-rows:
+                minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+    }
+}
+
+
+    .window-styles h1,
+    .door-styles h1{
+        text-align: center;
+    }
+
+    .window-styles-li,
+    .door-styles-li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0rem;
+    }
+
+
+
+    .window-styles-li img,
+    .door-styles-li img{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+#double-hang-photo {
+    width: 53%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

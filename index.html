@@ -6,11 +6,12 @@
 
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
 <header>
     <div class="logo">
-        <img src="images/gliner_final_2_2x2cm.png"
+        <img src="images/shared/logo.png"
              alt="Gliner construction logo" class="gliner-logo">
     </div>
     <div class="get-price-box">
@@ -28,11 +29,11 @@
 <nav class="nav">
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="">Services</a></li>
-        <li class="nav-item__get-free-estimate"><a href="">FREE ESTIMATE</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Promotions</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="services/index.html">Services</a></li>
+        <li class="nav-item__get-free-estimate"><a href="get-free-estimate/index.html">FREE ESTIMATE</a></li>
+<!--        <li><a href="about-us/index.html">About Us</a></li>-->
+        <!--        <li><a href="">Promotions</a></li>-->
+        <li><a href="contact/index.html">Contact</a></li>
     </ul>
 </nav>
 
@@ -40,14 +41,14 @@
     <section class="background-image__section">
         <div class="slider">
             <div class="image-and-text-inside-section slajd-1 display">
-                <img src="images/background-image1.jpg" class="background-image">
+                <img src="images/main/slajder/background-image1.jpg" class="background-image">
                 <div class="background-image-section__text ">
                     <h1>All what you need</h1>
                     <h2>Light, Safe, Warm</h2>
                 </div>
             </div>
             <div class="image-and-text-inside-section slajd-2 ">
-                <img src="images/background-image2.jpg" class="background-image">
+                <img src="images/main/slajder/background-image2.jpg" class="background-image">
                 <div class="background-image-section__text ">
                     <h1>We love windows !</h1>
                     <p>And our customers to...</p>
@@ -55,11 +56,11 @@
             </div>
 
             <div class="image-and-text-inside-section slajd-3 ">
-                <img src="images/background-image3.jpg" class="background-image only-photo">
+                <img src="images/main/slajder/background-image3.jpg" class="background-image only-photo">
             </div>
 
             <div class="image-and-text-inside-section slajd-4 ">
-                <img src="images/background-image4.jpg" class="background-image">
+                <img src="images/main/slajder/background-image4.jpg" class="background-image">
                 <div class="background-image-section__text ">
                     <h1>Trust our Experience</h1>
                     <h2>We Love what we do</h2>
@@ -86,93 +87,98 @@
             <ul class="why-us__list">
                 <li class="why-us__list-item">
                     <h1>Best Price</h1>
-                    <img src="images/money.png" alt="best-price-icon">
+                    <img src="images/main/why-us/money.png" alt="best-price-icon">
                 </li>
                 <li class="why-us__list-item">
                     <h1>High Quality</h1>
-                    <img src="images/diamond.png" alt="red-diamond">
+                    <img src="images/main/why-us/diamond.png" alt="red-diamond">
                 </li>
                 <li class="why-us__list-item">
                     <h1>Lifetime Warranty </h1>
-                    <img src="images/warranty.png" alt="warranty-shield-and-clock">
+                    <img src="images/main/why-us/warranty.png" alt="warranty-shield-and-clock">
                 </li>
             </ul>
         </div>
     </section>
-
-    <section class="our-projects">
-        <h1 class="our-projects-title">Our Projects</h1>
-        <div class="before-after">
-            <div class="before">
-                <h1 class="before-after-title">Before</h1>
-                <img src="images/before.jpg" alt="old-patio-door">
-            </div>
-            <div class="after">
-                <h1 class="before-after-title">After</h1>
-                <img src="images/after.jpg" alt="new-patio-door">
-            </div>
-        </div>
-        <div class="rest-of-photos">
-            <div class="min-photo"><img src="images/background-image1.jpg" alt="widows"></div>
-            <div class="min-photo"><img src="images/background-image2.jpg" alt="widows"></div>
-            <div class="min-photo"><img src="images/background-image3.jpg" alt="widows"></div>
-            <div class="min-photo"><img src="images/background-image4.jpg" alt="widows"></div>
-            <div class="min-photo"><img src="images/our-work-1.jpg" alt="widows"></div>
-            <div class="min-photo"><img src="images/our-work-1.jpg" alt="widows"></div>
-        </div>
-    </section>
-    <section class="reviews">
-        <h1 class="title">REVIEWS</h1>
-
-        <div class="testimonial">
-
-            <div class="card">
-                <div class="layer"></div>
-                <div class="content">
-                    <div class="details">
-                        <span class="name">Waldemar Kowalski</span>
-                        <span class="adress">Pensylvania</span>
-                        <p class="stars">
-                            <i class="fa fa-star"><img src="images/gold-star.png"></i>
-                        </p>
-                    </div>
-                    <p>Nowe okna a wyglądają jak gówno!</p>
+    <div class="main-container">
+        <section class="our-projects">
+            <h1 class="our-projects-title">Our Projects</h1>
+            <div class="before-after">
+                <div class="before">
+                    <h1 class="before-after-title">Before</h1>
+                    <img src="images/main/before-after/before.jpg" alt="old-patio-door">
+                </div>
+                <div class="after">
+                    <h1 class="before-after-title">After</h1>
+                    <img src="images/main/before-after/after.jpg" alt="new-patio-door">
                 </div>
             </div>
-            <div class="card">
-                <div class="layer"></div>
-                <div class="content">
-                    <div class="details">
-                        <span class="name">Bożenka Kowalski</span>
-                        <span class="adress">Pensylvania</span>
-                        <p class="stars">
-                            <i class="fa fa-star"><img src="images/gold-star.png"></i>
-                            <i class="fa fa-star"><img src="images/gold-star.png"></i>
-                        </p>
+            <div class="rest-of-photos">
+                <div class="min-photo"><img src="images/main/our-projects/double-hang.jpg" alt="widows"></div>
+                <div class="min-photo"><img src="images/main/our-projects/patio-door.jpg" alt="widows"></div>
+                <div class="min-photo"><img src="images/main/our-projects/our-work-1.jpg" alt="widows"></div>
+                <div class="min-photo"><img src="images/main/our-projects/double-hang1.jpg" alt="widows"></div>
+                <div class="min-photo"><img src="images/main/our-projects/tripple-unit.jpg" alt="widows"></div>
+                <div class="min-photo"><img src="images/main/our-projects/double-hang2.jpg" alt="widows"></div>
+
+            </div>
+        </section>
+        <section class="reviews">
+            <h1 class="title">REVIEWS</h1>
+
+            <div class="testimonial">
+
+                <div class="card">
+                    <div class="layer"></div>
+                    <div class="content">
+                        <div class="details">
+                            <span class="name">Waldemar Kowalski</span>
+                            <span class="adress">Pensylvania</span>
+                            <p class="stars">
+                                <i class="fa fa-star"><img src="images/main/review-star.png"></i>
+                            </p>
+                        </div>
+                        <p>Nowe okna a wyglądają jak gówno!</p>
                     </div>
-                    <p>Rafał Valdi zaraz odchodzi na emeryture i Ci everything by przekazał, and you wbiłeś mu
-                        nóż w serce tym odejściem. How dare you !</p>
+                </div>
+                <div class="card">
+                    <div class="layer"></div>
+                    <div class="content">
+                        <div class="details">
+                            <span class="name">Bożenka Kowalski</span>
+                            <span class="adress">Pensylvania</span>
+                            <p class="stars">
+                                <i class="fa fa-star"><img src="images/main/review-star.png"></i>
+                                <i class="fa fa-star"><img src="images/main/review-star.png"></i>
+                            </p>
+                        </div>
+                        <p>Rafał Valdi zaraz odchodzi na emeryture i Ci everything by przekazał, and you wbiłeś mu
+                            nóż w serce tym odejściem. How dare you !</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="layer"></div>
+                    <div class="content">
+                        <div class="details">
+                            <span class="name">Adam Bucci</span>
+                            <span class="adress">Langhorne</span>
+                            <p class="stars">
+                                <i class="fa fa-star"><img src="images/main/review-star.png"></i>
+                                <i class="fa fa-star"><img src="images/main/review-star.png"></i>
+                                <i class="fa fa-star"><img src="images/main/review-star.png"></i>
+                                <i class="fa fa-star"><img src="images/main/review-star.png"></i>
+                                <i class="fa fa-star"><img src="images/main/review-star.png"></i>
+                            </p>
+                        </div>
+                        <p>Rafal was great, from the onset of the project to the end result. He helped me get a new Sliding Glass
+                        door installed for 1/3 of what others were charging. His workmanship was excellent, he left
+                        my home clean and undamaged. The end result was very satisfying. I would reference him to anyone I know that wants a great quality at
+                        a fair prive.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="layer"></div>
-                <div class="content">
-                    <div class="details">
-                        <span class="name">Tomasz Stępnik</span>
-                        <span class="adress">Las Vegas</span>
-                        <p class="stars">
-                            <i class="fa fa-star"><img src="images/gold-star.png"></i>
-                            <i class="fa fa-star"><img src="images/gold-star.png"></i>
-                            <i class="fa fa-star"><img src="images/gold-star.png"></i>
-                            <i class="fa fa-star"><img src="images/gold-star.png"></i>
-                            <i class="fa fa-star"><img src="images/gold-star.png"></i>
-                        </p>
-                    </div>
-                    <p>700$ + mazda i mogę wrócić. . . .</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </main>
 <footer>
     <p class="copy"> All Rights Reserved &copy; GLINER </p>

@@ -1,0 +1,87 @@
+:root {
+    --footer-margin-top: 90rem;
+}
+footer {
+    margin-top: calc(var(--footer-margin-top) + 40rem);
+    width: 100%;
+    background: black;
+    position: static;
+    display: block;
+    height: 3rem;
+    padding: 0.3rem 0;
+}
+
+@media (min-width: 20rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 35rem);
+    }
+}
+
+@media (min-width: 25rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 25rem);
+    }
+}
+
+@media (min-width: 27rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 20rem);
+    }
+}
+
+@media (min-width: 30rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 15rem);
+    }
+}
+
+@media (min-width: 32rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 10rem);
+    }
+}
+
+@media (min-width: 34rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 3rem);
+    }
+}
+
+@media (min-width: 36rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 360rem);
+    }
+}
+
+@media (min-width: 38rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 380rem);
+    }
+}
+
+@media (min-width: 40rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 70rem);
+    }
+}
+
+@media (min-width: 46rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 90rem);
+
+    }
+}
+
+@media (min-width: 50rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 10rem);
+    }
+}
+
+@media (min-width: 60rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + -80rem);
+
+    }
+}
+
