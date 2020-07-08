@@ -1,10 +1,5 @@
-:root {
-    --footer-margin-top: 100rem;
-}
-
-
 footer {
-    margin-top: calc(var(--footer-margin-top) + 70rem);
+    margin-top: calc(var(--footer-margin-top) + 170rem);
     width: 100%;
     background: black;
     position: static;
@@ -13,38 +8,77 @@ footer {
     padding: 0.3rem 0;
 }
 
-@media (min-height: 20rem){
+@media (min-width: 20rem) {
     footer {
-        margin-top: calc(var(--footer-margin-top)+ 25rem);
+        margin-top: calc(var(--footer-margin-top) + 25rem);
     }
 }
 
-@media (min-height: 25rem){
+@media (min-width: 25rem) {
     footer {
-        margin-top: calc(var(--footer-margin-top)+ 20rem);
+        margin-top: calc(var(--footer-margin-top) + 240rem);
     }
 }
 
-@media (min-height: 30rem){
+@media (min-width: 27rem) {
     footer {
-        margin-top: calc(var(--footer-margin-top)+ 15rem);
+        margin-top: calc(var(--footer-margin-top) + 260rem);
     }
 }
 
-@media (min-height: 35rem){
+@media (min-width: 30rem) {
     footer {
-        margin-top: calc(var(--footer-margin-top)+ 10rem);
+        margin-top: calc(var(--footer-margin-top) + 280rem);
     }
 }
 
-@media (min-height: 40rem){
+@media (min-width: 32rem) {
     footer {
-        margin-top: calc(var(--footer-margin-top)+ 5rem);
+        margin-top: calc(var(--footer-margin-top) + 300rem);
     }
 }
 
-@media (min-height: 46rem){
+@media (min-width: 34rem) {
     footer {
-        margin-top: var(--footer-margin-top);
+        margin-top: calc(var(--footer-margin-top) + 320rem);
     }
 }
+
+@media (min-width: 36rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 360rem);
+    }
+}
+
+@media (min-width: 38rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 380rem);
+    }
+}
+
+@media (min-width: 40rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 70rem);
+    }
+}
+
+@media (min-width: 46rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 90rem);
+
+    }
+}
+
+@media (min-width: 50rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + 10rem);
+    }
+}
+
+@media (min-width: 60rem) {
+    footer {
+        margin-top: calc(var(--footer-margin-top) + -80rem);
+
+    }
+}
+

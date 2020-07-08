@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+:root {
+    --footer-margin-top: 200rem;
+}
 
 ul {
     list-style: none;
@@ -68,7 +71,8 @@ main {
     grid-gap: 1rem;
 
 }
-@media (max-width: 75rem) {
+
+   @media (max-width: 75rem) {
     .window-styles ul {
         grid-template-columns:  minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
         grid-template-rows:
@@ -102,11 +106,12 @@ main {
     width: 100%;
     display: grid;
     grid-template-columns: minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+    grid-template-rows: minmax(15rem, 1fr);
     grid-gap: 1rem;
 }
 
 @media (max-width: 50rem) {
-    .window-styles ul {
+    .door-styles ul {
         grid-template-columns:  minmax(15rem, 1fr);
         grid-template-rows:
                 minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
@@ -125,8 +130,9 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
     }
+
 
 
     .window-styles-li img,
@@ -135,10 +141,16 @@ main {
         height: auto;
     }
 
-    .double-hang {
-        width: 53%;
-    }
 
+
+#double-hang-photo {
+    width: 53%;
+}
+
+
+:root {
+    --footer-margin-top: 200rem;
+}
 
 
 
