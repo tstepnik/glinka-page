@@ -20,16 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9552bd4-dae2-40c6-9f0e-3f4a452e9588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/contact/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/contact/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/contact/pin.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get-free-estimate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/get-free-estimate/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/services/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/services/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared.css" beforeDir="false" afterPath="$PROJECT_DIR$/shared.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/shared.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -75,11 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomas\IdeaProjects\glinka-page\images\contact" />
       <recent name="C:\Users\tomas\IdeaProjects\glinka-page\images\services\door-styles" />
       <recent name="C:\Users\tomas\IdeaProjects\glinka-page\images\services\window-styles" />
       <recent name="C:\Users\tomas\IdeaProjects\glinka-page\images\services" />
       <recent name="C:\Users\tomas\IdeaProjects\glinka-page\images\free-estimate" />
-      <recent name="C:\Users\tomas\IdeaProjects\glinka-page\images\shared" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -100,7 +101,7 @@
       <workItem from="1594027155123" duration="14220000" />
       <workItem from="1594072415754" duration="596000" />
       <workItem from="1594155784828" duration="20420000" />
-      <workItem from="1594211511198" duration="5261000" />
+      <workItem from="1594211511198" duration="8349000" />
     </task>
     <servers />
   </component>
