@@ -5,8 +5,10 @@
 
 main {
     display: flex;
-    width: 100%;
+    width: 80%;
     font-family: 'Poppins', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .informationn {

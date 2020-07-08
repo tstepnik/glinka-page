@@ -20,17 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9552bd4-dae2-40c6-9f0e-3f4a452e9588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contact/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contact/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contact/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contact/pin.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get-free-estimate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/get-free-estimate/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/services/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/contact/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/services/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +96,7 @@
       <workItem from="1594027155123" duration="14220000" />
       <workItem from="1594072415754" duration="596000" />
       <workItem from="1594155784828" duration="20420000" />
-      <workItem from="1594211511198" duration="8349000" />
+      <workItem from="1594211511198" duration="9461000" />
     </task>
     <servers />
   </component>
