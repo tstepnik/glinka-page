@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.introduction{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: 90%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.introduction-desc{
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    padding-right: 4rem;
+}
+
+.introduction-desc h1 {
+    font-size: 3rem;
+}
+
+.introduction-desc p {
+    font-size: 1.7rem;
+}
+
+.photo{
+    width: 50%;
+}
+
+.photo img {
+    text-align: center;
+    vertical-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.styles-table{
+
+    background: #3098a0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin-top: 14rem;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.title-h1 {
+    display: inline;
+    padding-bottom: 0.3rem;
+    /*border-radius: 1rem;*/
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.title-h1::before{
+    content: '';
+    background: white;
+    height: 5px;
+    width: 200px;
+    margin-bottom: -2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+}
+
+.table {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+    margin-top: 3rem;
+}
+
+.table ul {
+    margin-top: 2rem;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.table h2 {
+    font-size: 2.5rem;
+}
+
+.table li {
+    font-size: 2rem;
+}
+
+.table li a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 0.3rem solid #3098a0;
+}
+
+
+.table li a:hover {
+    border-bottom-color: #6dd8dc;
+    color: #6dd8dc;
+}
+
+
+
+.window-styles{
+    width: 50%;
+    text-align: center;
+}
+
+.door-styles{
+    text-align: center;
+    width: 50%;
+
+}
+
+.styles-description{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

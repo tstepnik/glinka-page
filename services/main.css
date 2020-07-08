@@ -5,20 +5,24 @@ ul {
     list-style: none;
     padding: 0;
 }
+
 main {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-.introduction{
+
+.introduction {
     margin-top: 5rem;
     margin-bottom: 3rem;
-    width: 100%;
+    width: 90%;
     display: flex;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
-.introduction-desc{
+.introduction-desc {
     font-family: 'Poppins', sans-serif;
     width: 50%;
     padding-right: 4rem;
@@ -32,60 +36,115 @@ main {
     font-size: 1.7rem;
 }
 
-.photo{
+.photo {
     width: 50%;
 }
 
 .photo img {
     text-align: center;
     vertical-align: center;
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
-.styles-table{
-    width: 100%;
-    margin-top: 6rem;
-    text-align: center;
-}
-
-.styles-table .title {
-    padding-bottom: 0.3rem;
-    border-bottom: solid 0.3rem #03a9f4;
-    border-radius: 0.2rem;
-    text-align: center;
-    font-size: 3.5rem;
-    font-weight: bold;
-}
-
-.table {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    line-height: 1.5;
-    margin-top: 3rem;
-}
-
-.table h2 {
-    font-size: 2.5rem;
-}
-
-.table li {
-    font-size: 2rem;
+.window-styles,
+.door-styles{
+    margin-top: 15rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 .window-styles{
-    color: #03a9f4;
-
-    width: 50%;
-    text-align: center;
+    margin-top: 5rem;
 }
 
-.door-styles{
-    color: #03a9f4;
+.window-styles ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+    grid-template-rows: minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+    grid-gap: 1rem;
 
-    text-align: center;
-    width: 50%;
 }
+@media (max-width: 75rem) {
+    .window-styles ul {
+        grid-template-columns:  minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+        grid-template-rows:
+                minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr)
+    minmax(15rem, 1fr);
+    }
+}
+
+    @media (max-width: 60rem) {
+        .window-styles ul {
+            grid-template-columns:  minmax(15rem, 1fr) minmax(15rem, 1fr);
+            grid-template-rows:
+                minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr)
+    minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+        }
+    }
+
+    @media (max-width: 40rem) {
+        .window-styles ul {
+            grid-template-columns:  minmax(15rem, 1fr);
+            grid-template-rows:
+                minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr)
+    minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr)
+    minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+        }
+    }
+
+    /*//////////*/
+
+.door-styles ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+    grid-gap: 1rem;
+}
+
+@media (max-width: 50rem) {
+    .window-styles ul {
+        grid-template-columns:  minmax(15rem, 1fr);
+        grid-template-rows:
+                minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(15rem, 1fr);
+    }
+}
+
+
+    .window-styles h1,
+    .door-styles h1{
+        text-align: center;
+    }
+
+    .window-styles-li,
+    .door-styles-li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+
+    .window-styles-li img,
+    .door-styles-li img{
+        width: 100%;
+        height: auto;
+    }
+
+    .double-hang {
+        width: 53%;
+    }
+
+
+
+
+
+
+
+
 
 

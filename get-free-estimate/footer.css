@@ -1,3 +1,7 @@
+:root {
+    --footer-margin-top: 30rem;
+}
+
 
 footer {
     margin-top: 140rem;
@@ -11,36 +15,36 @@ footer {
 
 @media (min-height: 20rem){
     footer {
-        margin-top: 55rem;
+        margin-top: calc(var(--footer-margin-top)+ 25rem);
     }
 }
 
 @media (min-height: 25rem){
     footer {
-        margin-top: 50rem;
+        margin-top: calc(var(--footer-margin-top)+ 20rem);
     }
 }
 
 @media (min-height: 30rem){
     footer {
-        margin-top: 45rem;
+        margin-top: calc(var(--footer-margin-top)+ 15rem);
     }
 }
 
 @media (min-height: 35rem){
     footer {
-        margin-top: 40rem;
+        margin-top: calc(var(--footer-margin-top)+ 10rem);
     }
 }
 
 @media (min-height: 40rem){
     footer {
-        margin-top: 35rem;
+        margin-top: calc(var(--footer-margin-top)+ 5rem);
     }
 }
 
 @media (min-height: 46rem){
     footer {
-        margin-top: 30rem;
+        margin-top: var(--footer-margin-top);
     }
 }
