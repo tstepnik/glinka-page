@@ -9,7 +9,7 @@ html {
 
 body {
     display: grid;
-    grid-template-rows: minmax(auto,10.75rem) auto auto fit-content(8rem);
+    grid-template-rows: minmax(auto, 10.75rem) auto auto fit-content(8rem);
     grid-template-areas: "header"
                          "nav"
                          "main"
@@ -27,7 +27,7 @@ main {
 }
 
 
-h1,h2,h3,h4,h5,h6,p{
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
 }
@@ -42,10 +42,18 @@ header {
     padding: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-
+    border: 0.5rem solid orange;
 }
+
+@media (min-width: 50rem) {
+    header {
+        justify-content: center;
+        border: none;
+    }
+}
+
 .logo {
 
 }
@@ -56,18 +64,75 @@ header {
     width: 50%;
 }
 
-.get-price-box{
- background: url("images/shared/get-price-now.jpg");
-    width: 60%;
-    height: 7rem;
-    margin: 0;
-    padding: 0;
-    margin-right: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
+/*///////////////BUTON/////////////////*/
+/*///////////////BUTON/////////////////*/
+/*///////////////BUTON/////////////////*/
+
+.toggle-button {
+
+    height: auto;
+
+    position: fixed;
+    top: 2rem;
+    right: 0;
+
+    opacity: 0.90;
+    z-index: 999;
+
+    width: 6rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+    margin-right: 2rem;
 }
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button__bar {
+    width: 100%;
+    height: 0.8rem;
+    background: black;
+    opacity: 0.8;
+    display: block;
+    margin: 0.6rem 0;
+    border-radius: 1rem;
+}
+
+@media (min-width: 50rem) {
+    .toggle-button {
+        display: none;
+    }
+}
+
+/*///////////////////////////////////////////*/
+/*////////////BUTON//////////////*/
+/*///////////////////////////////////////////*/
+
+.get-price-box {
+    display: none;
+}
+
+@media (min-width: 50rem) {
+    .get-price-box {
+        background: url("images/shared/get-price-now.jpg");
+        width: 60%;
+        height: 7rem;
+        margin: 0;
+        padding: 0;
+        margin-right: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
 
 .price-box {
     margin: 0;
@@ -96,14 +161,14 @@ header {
     color: orange;
 }
 
-.price-box-text h1{
+.price-box-text h1 {
     font-size: 2.5rem;
     color: black;
 }
 
-.price-box-text h2{
+.price-box-text h2 {
     margin-left: 7rem;
-font-size: 1.7rem;
+    font-size: 1.7rem;
 }
 
 .price-button a {
@@ -113,33 +178,32 @@ font-size: 1.7rem;
 }
 
 .price-button a:hover,
-.price-button a:active{
+.price-button a:active {
     color: white;
 }
 
 .nav {
-    background: orange;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
-    /*margin-right: auto;*/
-    /*margin-left: 1rem;*/
-    width: 100%;
-    height: auto;
-    /*position: fixed;*/
-    /*margin-top: 10rem;*/
-    position: sticky;
-    top:0;
-    opacity: 0.90;
-    z-index: 999;
+    display: none;
 
 }
 
-@media (min-width: 55rem) {
-    nav {
-        /*margin: 0 auto;*/
+@media (min-width: 50rem) {
+    .nav {
+        background: orange;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+        /*margin-right: auto;*/
+        /*margin-left: 1rem;*/
+        width: 100%;
         height: auto;
+        /*position: fixed;*/
+        /*margin-top: 10rem;*/
+        position: sticky;
+        top: 0;
+        opacity: 0.90;
+        z-index: 999;
     }
 }
 
@@ -191,14 +255,15 @@ nav ul li a:active {
 
 
 }
-.nav-item__get-free-estimate a{
+
+.nav-item__get-free-estimate a {
 
     border-color: #107aff;
     color: black;
 }
 
 .nav-item__get-free-estimate a:hover,
-.nav-item__get-free-estimate a:active{
+.nav-item__get-free-estimate a:active {
     border-color: white;
     background: orange;
     color: white;
@@ -209,8 +274,6 @@ nav ul li a:active {
     position: fixed;
     top: 0;
 }
-
-
 
 
 .copy {
@@ -231,4 +294,70 @@ footer {
     height: 3rem;
     grid-area: footer;
 
+}
+
+/*MOBILE NAV*/
+.mobile-nav {
+    display: none;
+    position: fixed;
+    transform: translateX(-100%);
+    transition: 2s, transform 500ms;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background: orange;
+    width: 80%;
+    height: 100vh;
+}
+
+.mobile-nav__list {
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.mobile-nav__list-item {
+    margin: 0;
+}
+
+.mobile-nav__list-item a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    padding: 1rem;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+}
+
+.mobile-nav__list-item a:hover,
+.mobile-nav__list-item a:active{
+    color: white;
+    border-color: white;
+}
+
+.open {
+    display: block !important;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.backdrop {
+    display: none;
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.2s linear;
 }
