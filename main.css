@@ -422,6 +422,12 @@
     }
 }
 
+@media(min-width: 77rem){
+    .reviews{
+        margin-top: 5rem;
+    }
+}
+
 .title {
     text-align: center;
     color: #fff;
