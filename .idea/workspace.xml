@@ -21,17 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f9552bd4-dae2-40c6-9f0e-3f4a452e9588" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/contact/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get-free-estimate/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/get-free-estimate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/get-free-estimate/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/get-free-estimate/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/get-free-estimate/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/services/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared.css" beforeDir="false" afterPath="$PROJECT_DIR$/shared.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/shared.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,9 +145,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1594283505385" />
-    <state x="478" y="145" width="579" height="592" key="find.popup" timestamp="1594283499782">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="523" y="-872" width="634" height="726" key="find.popup" timestamp="1594307492641">
+      <screen x="0" y="-1050" width="1680" height="1010" />
     </state>
+    <state x="523" y="-872" width="634" height="726" key="find.popup/0.0.1536.824/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1594307492641" />
     <state x="478" y="145" width="579" height="592" key="find.popup/0.0.1536.824/0.-1050.1680.1010@0.0.1536.824" timestamp="1594213213597" />
     <state x="478" y="145" width="579" height="592" key="find.popup/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1594283499782" />
     <state x="203" y="66" key="new project wizard" timestamp="1594156778173">
@@ -162,9 +157,10 @@
     <state x="203" y="66" key="new project wizard/0.0.1536.824/0.-1050.1680.1010@0.0.1536.824" timestamp="1594156778173" />
     <state x="2142" y="263" key="new project wizard/0.0.1536.824/1920.34.1680.1010@1920.34.1680.1010" timestamp="1592582012414" />
     <state x="203" y="66" key="new project wizard/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1594030746662" />
-    <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1594283495415">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="448" y="-880" width="766" height="650" key="recent.locations.popup" timestamp="1594307468146">
+      <screen x="0" y="-1050" width="1680" height="1010" />
     </state>
+    <state x="448" y="-880" width="766" height="650" key="recent.locations.popup/0.0.1536.824/0.-1050.1680.1010@0.-1050.1680.1010" timestamp="1594307468146" />
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824/262.-1024.1280.984@0.0.1536.824" timestamp="1594283495415" />
     <state x="453" y="181" key="run.anything.popup" timestamp="1594050084767">
       <screen x="0" y="0" width="1536" height="824" />

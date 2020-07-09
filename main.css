@@ -10,7 +10,7 @@
     position: relative;
 }
 
-@media(min-width: 50rem){
+@media(min-width: 76rem){
     .background-image__section {
         width: 100%;
         height: 30rem;
@@ -39,7 +39,7 @@
     height: 100%;
 }
 
-@media (min-width: 50rem){
+@media (min-width: 76rem){
     .mobile-slide{
         display: none;
     }
@@ -209,7 +209,7 @@
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-@media(min-width: 50rem){
+@media(min-width: 76rem){
   .why-us__container{
       width: 80%;
       padding: 2rem;
@@ -231,7 +231,7 @@
     padding: 0;
 }
 
-@media(min-width: 50rem){
+@media(min-width: 76rem){
     .why-us__list{
         justify-content: space-around;
     }
@@ -279,7 +279,7 @@
     margin-bottom: 15rem;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 76rem) {
     .our-projects {
         margin-bottom: 0;
         width: 85%;
@@ -301,7 +301,7 @@
     width: 100%;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 76rem) {
     .before-after {
         flex-direction: row;
     }
@@ -316,7 +316,7 @@
     width: 90%;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 76rem) {
     .before,
     .after {
         width: 48%;
@@ -347,7 +347,7 @@
     margin-bottom: 4rem;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 76rem) {
     .rest-of-photos {
         grid-template-columns: 30% 30% 30%;
         grid-template-rows: 50% 50%;
@@ -401,11 +401,24 @@
         margin-top: 39rem;
     }
 }
-
-
 @media(min-width: 50rem){
     .reviews{
-        margin-top: 5rem;
+        margin-top: 55rem;
+    }
+}
+@media(min-width: 60rem){
+    .reviews{
+        margin-top: 70rem;
+    }
+}
+@media(min-width: 65rem){
+    .reviews{
+        margin-top: 80rem;
+    }
+}
+@media(min-width: 70rem){
+    .reviews{
+        margin-top: 87rem;
     }
 }
 
@@ -435,7 +448,7 @@
     grid-gap: 20px;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 76rem) {
     .testimonial {
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 

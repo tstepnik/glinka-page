@@ -47,7 +47,7 @@ header {
     border: 0.5rem solid orange;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 76rem) {
     header {
         justify-content: center;
         border: none;
@@ -104,7 +104,7 @@ header {
     border-radius: 1rem;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 76rem) {
     .toggle-button {
         display: none;
     }
@@ -118,7 +118,7 @@ header {
     display: none;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 76rem) {
     .get-price-box {
         background: url("images/shared/get-price-now.jpg");
         width: 60%;
@@ -187,7 +187,7 @@ header {
 
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 76rem) {
     .nav {
         background: orange;
         display: flex;
