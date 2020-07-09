@@ -1,5 +1,5 @@
 footer {
-    margin-top: 140rem;
+    margin-top: 340rem;;
     width: 100%;
     background: black;
     position: static;
@@ -8,38 +8,10 @@ footer {
     padding: 0.3rem 0;
 }
 
-@media (min-height: 20rem){
-    footer {
-        margin-top: 190rem;
-    }
-}
 
-@media (min-height: 25rem){
-    footer {
-        margin-top: 185rem;
-    }
-}
 
-@media (min-height: 30rem){
+@media (min-width: 70rem){
     footer {
         margin-top: 180rem;
-    }
-}
-
-@media (min-height: 35rem){
-    footer {
-        margin-top: 175rem;
-    }
-}
-
-@media (min-height: 40rem){
-    footer {
-        margin-top: 170rem;
-    }
-}
-
-@media (min-height: 46rem){
-    footer {
-        margin-top: 165rem;
     }
 }
