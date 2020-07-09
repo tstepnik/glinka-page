@@ -12,7 +12,7 @@ main {
     flex-direction: column;
 }
 
-@media(min-width: 50rem){
+@media(min-width: 76rem){
     main {
        flex-direction: row;
     }
@@ -27,7 +27,7 @@ main {
     align-items: center;
 }
 
-@media(min-width: 50rem){
+@media(min-width: 76rem){
     .informationn {
         width: 50%;
     }
@@ -97,7 +97,7 @@ main {
     border-radius: var(--border-radius);
 }
 
-@media(min-width: 50rem){
+@media(min-width: 76rem){
     .form {
         width: 50%;
     }
