@@ -7,14 +7,30 @@
 
 }
 
-
-main{
-    display: flex;
-    width: 100%;
+body {
+    grid-row-gap: 1rem;
 }
 
-.information{
-    width: 50%;
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 50rem) {
+    main {
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+}
+
+
+.information {
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -22,10 +38,26 @@ main{
     align-items: center;
 }
 
-.information-image {
-    width: 90%;
-    height: auto;
+@media (min-width: 50rem) {
 
+    .information {
+        width: 50%;
+
+    }
+}
+
+.information-image {
+    display: none;
+
+}
+
+@media (min-width: 50rem) {
+    .information-image {
+        display: block;
+        width: 90%;
+        height: auto;
+
+    }
 }
 
 .information-title_description {
@@ -37,45 +69,56 @@ main{
     color: #004765;
 }
 
-.information-title{
+@media (min-width: 50rem) {
+    main {
+
+    }
+}
+
+.information-title {
     margin-bottom: 2rem;
     font-size: 2.5rem;
 }
 
 
-.information-paragraph{
+.information-paragraph {
     font-size: 1.5rem;
 }
 
 
-
-
-
 /*//////FORMULARZ///////*/
-.form{
+.form {
     font-family: 'Poppins', sans-serif;
     color: #03a9f4;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
-    margin-top: 6rem;
+    margin-top: 0rem;
     /*margin-bottom: 3rem;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: auto;
     border-radius: var(--border-radius);
 
 }
-#form-background{
+
+@media (min-width: 50rem) {
+    .form {
+        margin-top: 6rem;
+width: 50%;
+    }
+}
+
+#form-background {
     border-radius: var(--border-radius);
-    background: url("../images/shared/get-price-now.jpg") ;
+    background: url("../images/shared/get-price-now.jpg");
     width: 90%;
 }
 
-.title{
+.title {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -84,7 +127,7 @@ main{
 
 }
 
-form{
+form {
     background: rgba(0, 0, 0, 0.2);
     color: white;
     border-radius: var(--border-radius);
@@ -104,15 +147,15 @@ form input {
     font-size: 1rem;
 }
 
-form label{
+form label {
     margin: 0.3rem 0.3rem 0.6rem;
 }
 
-#message{
+#message {
     height: 8rem;
 }
 
-.form-button{
+.form-button {
     font-size: 2rem;
     letter-spacing: 0.3rem;
     font-weight: 500;
@@ -125,4 +168,6 @@ form label{
     color: inherit;
     cursor: pointer;
 }
+
+
 

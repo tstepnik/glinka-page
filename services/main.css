@@ -27,8 +27,14 @@ main {
 
 .introduction-desc {
     font-family: 'Poppins', sans-serif;
-    width: 50%;
-    padding-right: 4rem;
+    width: 100%;
+}
+
+@media (min-width: 50rem) {
+    .introduction-desc {
+        width: 50%;
+        padding-right: 4rem;
+    }
 }
 
 .introduction-desc h1 {
@@ -40,7 +46,15 @@ main {
 }
 
 .photo {
-    width: 50%;
+   display:none
+}
+
+@media (min-width: 50rem) {
+
+    .photo{
+        display: block;
+        width: 50%;
+    }
 }
 
 .photo img {
